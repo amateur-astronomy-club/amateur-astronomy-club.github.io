@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AAC Test</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Catamaran:400,500,700,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+
+	<link rel="stylesheet" type="text/css" href="css/header.footer_style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bg_color.css"/>
+	<link rel="stylesheet" type="text/css" href="css/constellations.css"/>
+	<link rel="stylesheet" type="text/css" href="css/astro_photos.css"/>
+	<link rel="stylesheet" type="text/css" href="css/timeline.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fullcalendar.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fullcalendar.print.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fullcalendar.css"/>
+	<link rel="stylesheet" type="text/css" href="css/events.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blog.css"/>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css"
+		  media="screen"/>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css"
+		  media="screen"/>
+
+	<!--load WOW js from CDN-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+	</script>
+
+	<script> new WOW().init();</script>
+</head>
+<body>
+<header>
+	<ul id="menu">
+		<li data-menuanchor="home" class="active" onclick="$.fn.fullpage.moveTo('home', 0)">Home</li>
+		<li data-menuanchor="about" onclick="$.fn.fullpage.moveTo('about', 0)">About</li>
+		<li data-menuanchor="events" onclick="$.fn.fullpage.moveTo('events', 0)">Events</li>
+		<li data-menuanchor="photography" onclick="$.fn.fullpage.moveTo('photography', 0)">Photography</li>
+		<li data-menuanchor="blog" onclick="$.fn.fullpage.moveTo('blog', 0)">Blog</li>
+		<li data-menuanchor="contact" onclick="$.fn.fullpage.moveTo('contact', 0)">Contact</li>
+	</ul>
+</header>
+<footer><img id="fb" src="img/fb_white.png"/><span class="link">@aacnitk</span><img src="img/twitter_white.png"/><span class="link"> @aacnitk</span></footer>
+<div class="scroll_wrapper bg_color">
+
+
+	<div class="page" id='home'>
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars1"></canvas>
+
+			<div class="content_wrapper">
+				<div id='AAC_overlay'></div>
+				<div id='o1'></div>
+				<div id='o2'></div>
+				<div id='o3'></div>
+				<div id='o4'></div>
+				<div id='c1'></div>
+				<div id='c2'></div>
+				<div id='c3'></div>
+				<div id='c4'></div>
+				<div id='AAC_constellation'></div>
+
+				<div id="landing_subTitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit
+				</div>
+
+				<div id="landing_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+	<div class="page" id='about'>
+
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars2"></canvas>
+
+			<div class="content_wrapper">
+				<div class="aside">
+					<div class="content">
+						<div class="num">1</div>
+						<div class="text">Telescope</div>
+					</div>
+					<div class="content">
+						<div class="num">125</div>
+						<div class="text">Members</div>
+					</div>
+					<div class="content">
+						<div class="num">250</div>
+						<div class="text">Projects</div>
+					</div>
+					<div class="content">
+						<span class="num .integers">12345</span>
+
+						<div class="text">Alumni</div>
+					</div>
+
+				</div>
+				<div class="content-box" id="one">
+
+
+					<div class="content-text left wow fadeInLeft" id="first">
+
+						<div class="content-overview">1980</div>
+						<div class="content-detail">Started by the students of the NITK as Star Gazing club.</div>
+					</div>
+					<div class="content-text spacing"></div>
+					<div class="content-text right wow fadeInRight">
+						<div class="content-overview">2005</div>
+						<div class="content-detail">Acquired an Astronomical telescope from the college.</div>
+					</div>
+					<div class="content-text left wow fadeInLeft">
+						<div class="content-overview">2008</div>
+						<div class="content-detail">Stellaspecta is introduced.</div>
+					</div>
+					<div class="content-text spacing"></div>
+					<div class="content-text right wow fadeInRight">
+						<div class="content-overview">2014</div>
+						<div class="content-detail">Name changed to Amateur Astronomy Club with view to diversify.</div>
+					</div>
+					<div class="content-text left wow fadeInLeft" id="last">
+						<div class="content-overview">2015</div>
+						<div class="content-detail">New recruits join the club and decide to build a website.</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+	</div>
+	<div class="page" id='events'>
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars3"></canvas>
+			<div class="content_wrapper">
+
+				<div class="section">
+					<div class="slide">
+						<div class="eventsbg">
+							<img class="eventsbg" src="img/eventsbg.jpg" height="480">
+						</div>
+						<div class="tiles" id="picture-tile-1">
+							<img class="mySlides" src="img/sample1.jpg" width="400">
+							<img class="mySlides" src="http://www.astronomy.com/-/media/Images/Year%20of%20Pluto/voyagerspacecraft.jpg?mw=600" width="400" height="400">
+							<img class="mySlides" src="http://www.universetoday.com/wp-content/uploads/2011/06/557354main_iss027e036710_1600_1024-768.jpg" width="400" height="400">
+							<img class="mySlides" src="http://astro.cornell.edu/img/large/rover3_2.jpg" width="400" height="400">
+						</div>
+						<div class="module mid">
+  							<h2>Bhoomiyan Text. Hi this is Bhoomiyan from AAC. Exotic snow capped mountains stretching across the dark expanse on Pluto were discovered by our New Horizons team. Scientists think that methane condensed as ice onto the peaks from Pluto's atmosphere. 
+  							</h2>
+						</div>
+						<div class="module top">
+							<h1>AAC BHOOMIYAN</h1>
+						</div>
+
+				<!-- <div class="tiles" id="picture-tile-2"> -->
+					<!-- </div> -->
+					</div>
+
+					<div class="slide">
+						<img id="slide-2" src="http://static.simpledesktops.com/uploads/desktops/2013/02/01/Solar.png" style="position:relative" width="860" height="480" />
+						<div class="vertical-text">AAC BHOOMIYAN
+						</div>
+					</div>
+					<div class="slide">
+						<img id="slide-3" src="https://userscontent2.emaze.com/images/892d0a19-a789-4be7-bf4b-75cedf46b4c6/6041590294c1ed553275855d5c9efd0d.jpg" style="position:relative" width="1000" height="480"/>
+					</div>
+					<div class="slide">
+						<div class="slidetext1">EVERYTHING
+							</div>
+						<div class="slidetext2">RIGHT
+							</div>
+						<div class="slidetext3">HERE
+							</div>
+						<a id="trianglehover" href="../fullcalendar/demo/AAC%20Calendar.html">
+						<shape id="triangle-right">
+							</shape>
+						</a>
+				
+						<div class="smalltilerow">
+							<div class="small-tiles-row-1" id="small-tile-1">A
+								</div>
+							<div class="small-tiles-row-1" id="small-tile-rest"> A
+								</div>
+							<div class="small-tiles-row-1" id="small-tile-rest">C
+								</div>
+							</div>
+						<div class="smalltilerow">
+							<div class="small-tiles-row-2" id="small-tile-rest">C
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">A
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">L
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">E
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">N
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">D
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">A
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">R
+								</div>
+							</div>
+					</div>		
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+	<div class="page" id='photography'>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper" id='photos'>
+
+				<div class="photo_row" id='row1'>
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/01.jpg"></a>
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01jpg"><img
+							src="astro-photography_images/02.jpg"></a>
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/03.jpg"></a>
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/01.jpg"></a>
+
+
+				</div>
+
+				<div class="photo_row" id='row2'>
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/04.jpg"></a>
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/05.jpg"></a>
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/03.jpg"></a>
+
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/01.jpg"></a>
+				</div>
+
+
+				<div class="photo_row" id='row3'>
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/01.jpg"></a>
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/04.jpg"></a>
+
+					<a class="fancybox" rel="group" href="astro-photography_images/01.jpg"><img
+							src="astro-photography_images/02.jpg"></a>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<div class="page" id='blog'>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper">
+
+				<div class="left_content_wrap">
+
+                    <div class="left_content_head">Get up close and personal</div>
+                    <div class="left_content_blog">
+                        <!--Our members bring you tailor made articles and posts to fulfill your frequent interstellar needs.-->
+                    <!--Outer space objects<br>Star Gazing tutorials<br>A recent meteor shower<br>Images taken from our telescope
+                    <br>We write about it all !<br><br>
+
+                        Join along as we gaze the stars.<br>
+                        Get event details, telescope images and more.<br><br>-->
+                        <span id="caps">
+                           Join along as we gaze the stars.<br>
+                        Get event details, telescope images and more.<br>
+                        Read about what we do and what we love.<br>Follow us on our Blog.</span>
+                    </div>
+                    <div class="button"><a target="_blank" href="http://www.aacnitk.wordpress.com">View Blog</a></div>
+                    </div>
+
+                <div class="right_content_wrap">
+					<div class="awrap">
+                    <div class="articlebox">
+                        <div class="article_title">
+								the universe and us
+                        </div>
+                        <div class="oneliner"></div>
+                        <div class="article_date">
+							Sep 16 2016
+                        </div>
+                        <div class="author"><span class="by">By</span> Kunal Kulkarni</div>
+                    </div>
+
+					<div class="articlebox">
+						<div class="article_title">
+							Goodbye Hubble?
+						</div>
+						<div class="oneliner"></div>
+						<div class="article_date">
+							Sep 16 2016
+						</div>
+						<div class="author"><span class="by">By</span> Kunal Kulkarni</div>
+					</div>
+
+					<div class="articlebox">
+						<div class="article_title">
+							Mercury Fluctuations
+						</div>
+						<div class="oneliner"></div>
+						<div class="article_date">
+							Sep 13 2016
+						</div>
+						<div class="author"><span class="by">By</span> Kunal Kulkarni</div>
+					</div>
+						<div class="articlebox">
+							<div class="article_title">
+								Another Article
+							</div>
+							<div class="oneliner"></div>
+							<div class="article_date">
+								Sep 13 2016
+							</div>
+							<div class="author"><span class="by">By</span> Kunal Kulkarni</div>
+						</div>
+					</div>
+                </div>
+			</div>
+			</div>
+		</div>
+
+	<div class="page" id='contact'>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper">
+				<div class="contact-box">
+					<div class="person-box">
+						<img src="img/pic.jpg" alt=""/>
+						<div class="datawrap">
+						<div class="name">Gaurav M, President</div>
+
+						<div class="email">emailid@host.com</div>
+						</div>
+
+
+
+
+					</div>
+					<div class="person-box">
+					<img src="img/pic.jpg" alt=""/>
+					<div class="datawrap">
+						<div class="name">Gaurav M, President</div>
+
+						<div class="email">emailid@host.com</div>
+					</div>
+						</div>
+						<div class="person-box">
+							<img src="img/pic.jpg" alt=""/>
+							<div class="datawrap">
+								<div class="name">Gaurav M, President</div>
+
+								<div class="email">emailid@host.com</div>
+							</div>
+				</div>
+
+
+
+
+			</div>
+
+			<div class="inquiry">
+				<div class="inq-wrap">
+				<div id="inq-head"> Inquiries</div>
+					<div class="data">
+						<span class="sig">Telescope & Astrophotography</span><br>
+						Gaurav M<br>
+						emailid@host.com<br>
+					</div>
+                    <div class="data">
+                        <span class="sig">Astrophysics & Scitutor</span><br>
+                        Gaurav M<br>
+                        emailid@host.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Blog & Stellaspecta</span><br>
+                        Gaurav M<br>
+                        emailid@host.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Astronomy SIG</span><br>
+                        Gaurav M<br>
+                        emailid@host.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Events & Initiatives</span><br>
+                        Gaurav M<br>
+                        emailid@host.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Member List 2016-17</span><br>
+                        Download as PDF<br><br>
+
+                    </div>
+			</div>
+			</div>
+				</div>
+
+		</div>
+	</div>
+
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://code.jquery.com/color/jquery.color-2.1.0.js"></script>
+
+<!-- imports -->
+
+<script src="js/jquery.fullPage.min.js"></script>
+
+
+<!-- Other Scripts -->
+<script src="js/fullPage_init.js"></script>
+
+<script src="js/bg_color.js"></script>
+<script src="js/stars.js"></script>
+<script src="js/constellation.js"></script>
+<script src="js/events.js"></script>
+<script src="js/fullcalendar.js"></script>
+<script src="js/fullcalendar.min.js"></script>
+
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+<script type="text/javascript">
+	<!-- Customize before publishing -->
+	$(".fancybox").fancybox({
+		'transitionIn': 'elastic',
+		'transitionOut': 'elastic',
+		'speedIn': 600,
+		'speedOut': 200,
+		padding: 3,
+		helpers: {
+			title: {
+				type: 'outside'
+			},
+			thumbs: {
+				width: 50,
+				height: 50
+			}
+		}
+	});
+</script>
+</body>
+</html>
