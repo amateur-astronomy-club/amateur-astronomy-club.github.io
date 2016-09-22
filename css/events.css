@@ -1,22 +1,14 @@
 
-.eventsbg{
-	position:absolute;
-	z-index: -1;
-	margin-left: 65px;
-	margin-top:-10px;
-}
 
 .slide{
-	margin-top:-40px;	
+	margin-top:2vh;
 }
 
 .tiles{
   position:relative;
-  margin-top:10px;
-  margin-left: 225px;
+  margin-left: 15vw;
   width:400px;
-  height:400px;
-  background:#333;
+  height:80vh;
   float:left;
 }
 
@@ -30,22 +22,9 @@
 
 }
 
-.vertical-text{
-	color:white;
-	writing-mode: tb-rl;
-	margin-top: 40px;
-	margin-left: 135px;
-	padding-left:30px;
-	padding-right:30px;
-	padding-bottom: 30px;
-	padding-top:40px;
-	font-size:50px;
-	float:left;
-	background-color: #333;
-}
 
 #picture-tile-2{
-	margin-left:15px;
+	margin-left:20vw;
 	float:left;
     background-image: 
     linear-gradient(
@@ -56,21 +35,21 @@
 }
 
 .top h1, .mid h2 {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: absolute;	
   color: white;
-  margin: 0;
-  font-size:40px;
+	margin-right:5vw;
+  font-size:7vh;
   width:360px;
-  padding-top:30px;
-  padding-left: 740px;
+  padding-left: 50vw;
   z-index:1;
 }
 
 .mid h2 {
-  padding-left: 680px;
-  font-size:20px;
-  padding-top:110px;
+	font-family: "Blogger Sans Light", Helvetica, sans-serif;
+    padding-left: 50vw;
+	padding-top:20vh;
+    font-size:3vh;
 }
 
 .small-tiles-row-1{
@@ -86,7 +65,7 @@
 
 .small-tiles-row-2{
   position: absolute;
-  margin-top: 60px;
+  margin-top: 0vh;
   width:50px;
   height:50px;
   background:white;
@@ -96,7 +75,7 @@
 }
 
 #small-tile-1{
-  margin-left: 285px;
+  margin-left: 25vw;
 }
 
 #small-tile-rest{
@@ -106,9 +85,9 @@
 
 .slidetext1{
 	position:absolute;
-	margin-left:465px;
-	margin-top: -70px;
-	letter-spacing: 10px;
+	margin-left:25vw;
+	margin-top: -30vh;
+	letter-spacing: 1vw;
 	font-family: 'Dosis', sans-serif;
 	font-size:100px;
 	color:white;
@@ -117,8 +96,8 @@
 
 .slidetext2{
 	position:absolute;
-	margin-left:285px;
-	margin-top: 50px;
+	margin-left:25vw;
+	margin-top: -13vh;
 	font-family: 'Dosis', sans-serif;
 	letter-spacing: 7px;
 	font-size:58px;
@@ -131,8 +110,8 @@
 	font-family: 'Ubuntu', sans-serif;
 	font-size:50px;
 	color:white;
-	margin-left:465px;
-	margin-top: 120px;
+	margin-left:39vw;
+	margin-top: -12vh;
 }
 
 #triangle-right{
@@ -140,8 +119,8 @@
 	border-top: 10px solid transparent;
 	border-left: 25px solid white;
 	border-bottom: 15px solid transparent;
-	margin-top: 140px;
-	margin-left:605px;
+	margin-top: -9vh;
+	margin-left:50vw;
 	-webkit-transform: rotate(10deg);
 }
 

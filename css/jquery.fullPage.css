@@ -88,15 +88,15 @@ html.fp-enabled,
 }
 
 .fp-controlArrow.fp-prev {
-    left: 15px;
+    left: 5vw;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
+    border-width: 15px 10px 15px 0;
     border-color: transparent #fff transparent transparent;
 }
 
 .fp-controlArrow.fp-next {
-    right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
+    right: 5vw;
+    border-width: 15px 0 15px 10px;
     border-color: transparent transparent transparent #fff;
 }
 
