@@ -1,7 +1,7 @@
 #AAC
 AAC website in the making
 
-Read commit messages for development comments
+Read commit messages and https://github.com/amateur-astronomy-club/AAC-Website for development comments
 
 Using: 
 
