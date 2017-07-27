@@ -24,16 +24,14 @@
     padding-top: 1%;
 
 
-
-
 }
 
 .person-box img
 {
     backface-visibility: hidden;
     border-radius: 50%;
-    width:20vh;
-    height:20vh;
+    width:9vw;
+    height: auto;
     padding: 2vh 0;
 
 
@@ -94,3 +92,6 @@
     text-transform: uppercase;
 
 }
+
+
+
